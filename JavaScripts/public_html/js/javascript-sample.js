@@ -5,7 +5,7 @@
  */
 "use strict";
 var camel;
-camel = "Welcome Budy"
+camel = "Welcome Budy";
 alert(camel);
 
 
