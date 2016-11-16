@@ -13,7 +13,12 @@ function myFunction() {
         return a - b;
     });
     document.getElementById("SNo").innerHTML = a;
+    
 }
-
-
+//if statement
+var name = "Nagappan";
+if (name = "Nagappan")
+{
+alert("Welcome to Java Script Tution");
+}
 
