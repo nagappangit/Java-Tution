@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Event Handler</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            a:link, a:visited {
+                position: relative;
+            }
+            /* Tooltips (dynamic styles) */
+            a:hover, a:focus, a:active {
+                z-index: 1;
+            }
+            .tooltip {
+                display: block;
+                font-size: smaller;
+                left: 0;
+                padding: 5px;
+                position: absolute;
+                text-decoration: none;
+                top: 1.7em;
+                width: 15em;
+            }
+            .federation .tooltip {
+                background: #C0C0FF url(starfleet.png) top left no-repeat;
+                color: #2E2E33;
+                min-height: 54px;
+                padding-left: 64px;
+            }
+            .klingon .tooltip {
+                background: #BF0000 url(klingonempire.png) top left no-repeat;
+                color: #FFF;
+                min-height: 54px;
+                padding-left: 64px;
+            }
+        </style>
+    </head>
+    <body>
+        <div>Event Handler</div>
+        <div>
+            <p>Domain Registration and web hosting company
+                <a id="aztec" href="https://aztectechnologies.in/" title="Aztec Technologies">Aztec Technologies</a>.
+            </p>
+        </div>
+    </body>
+    <script src="js/eventhandler.js" type="text/javascript"></script>
+</html>
